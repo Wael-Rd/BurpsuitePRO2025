@@ -79,4 +79,4 @@ sudo update-alternatives --config java
 - [xiv3r](https://github.com/xiv3r)
 - [rabin-thami](https://github.com/rabin-thami)
 - [ruban-s](https://github.com/ruban-s)
-- [powerstone666](https://github.com/powerstone666)# BurpsuitePRO2025
+- [powerstone666](https://github.com/powerstone666)                                                                                                                       # BurpsuitePRO2025
