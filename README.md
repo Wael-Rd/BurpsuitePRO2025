@@ -2,7 +2,7 @@
 
 ## Overview
 
-![overview]([C:\Users\IdeaPad Gaming\Downloads\overview.png](https://github.com/Wael-Rd/BurpsuitePRO2025/blob/main/overview.png))
+[![overview](https://github.com/Wael-Rd/BurpsuitePRO2025/blob/main/overview.png?raw=true)
 
 [Overview](https://portswigger.net/burp/pro)
 
