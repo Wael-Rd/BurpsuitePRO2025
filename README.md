@@ -1,1 +1,83 @@
-# Burp Suite Pro v2025 ## Overview ![Burp Suite Overview](https://github.com/Wael-Rd/BurpsuitePRO2025/blob/main/overview.png?raw=true) Dive into the world of cybersecurity with [Burp Suite Pro](https://portswigger.net/burp/pro), a powerful tool designed for security researchers and penetration testers. --- ## Installation on Linux ### Steps 1. **Grant Execution Permissions** Ensure the installation script is executable: ```bash chmod +x install.sh ``` 2. **Launch the Installation** Run the script to begin the setup: ```bash ./install.sh ``` 3. **Start Burp Suite** Launch the application with ease: ```bash burpsuitepro ``` 4. **Set Default Java Version (if needed)** Configure the appropriate Java version: ```bash sudo update-alternatives --config java ``` **Pro Tip:** During activation, copy the license key from the loader to Burp Suite. Navigate to *Manual Activation*, paste the request key into the loader, then copy the response key back to Burp Suite. --- ## Installation on Windows ### Steps 1. **Prepare the Environment** Create a `Burp` folder in the `C:` drive for optimal performance. 2. **Download the Installer** Grab [install.ps1](https://codeload.github.com/xiv3r/Burpsuite-Professional/zip/refs/heads/main) and extract it to `C:\Burp`. 3. **Configure PowerShell** Open PowerShell as an administrator and allow script execution: ```powershell Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process ``` 4. **Navigate to the Burp Directory** Move to the installation folder: ```powershell cd C:\Burp ``` 5. **Run the Installation** Execute the script to install: ```powershell ./install.ps1 ``` 6. **Verify the Loader** Ensure the loader file is present in the `C:\Burp` directory. 7. **Customize the Shortcut** - Create a desktop shortcut for the `loader`. - Right-click the shortcut, select *Properties* > *Shortcut* tab. - Click *Change Icon* and select `burp-suite.ico` from `C:\Burp`. --- ## Acknowledgments A heartfelt thank you to the brilliant minds who contributed to this project: - [xiv3r](https://github.com/xiv3r) - [rabin-thami](https://github.com/rabin-thami) - [ruban-s](https://github.com/ruban-s) - [powerstone666](https://github.com/powerstone666)
+# BurpSuitePro v2025
+
+## Overview
+
+![overview](https://github.com/Wael-Rd/BurpsuitePRO2025/blob/main/overview.png?raw=true)
+
+[Official Overview](https://portswigger.net/burp/pro)
+
+---
+
+## Installation Guide
+
+### For Linux/MacOS:
+
+1. **Make the installation script executable**:
+   ```sh
+   chmod +x install.sh
+   ```
+
+2. **Run the installation script**:
+   ```sh
+   ./install.sh
+   ```
+
+3. **Start Burp Suite**:
+   ```sh
+   burpsuitepro
+   ```
+
+4. **Set the default Java version** (if necessary):
+   ```sh
+   sudo update-alternatives --config java
+   ```
+
+   > **Note:** Copy the license key from the loader and follow these steps:
+   > - Navigate to `Burp Suite > Manual Activation`.
+   > - Copy the Burp Suite request key to the loader request field.
+   > - Paste the response key from the loader into Burp Suite.
+
+---
+
+### For Windows:
+
+1. **Prepare the Directory:**
+   - Create a folder named `Burp` in the `C:\` drive for easier access.
+
+2. **Download Required Files:**
+   - Download [install.ps1](https://github.com/Wael-Rd/BurpsuitePRO2025/blob/main/install.ps1) and extract its contents into `C:\Burp`.
+
+3. **Set Script Execution Policy:**
+   - Open `PowerShell` as an administrator and execute:
+     ```sh
+     Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+     ```
+
+4. **Navigate to the Directory:**
+   ```sh
+   cd C:\Burp
+   ```
+
+5. **Execute the Installation Script:**
+   ```sh
+   ./install.ps1
+   ```
+
+6. **Verify the Loader Placement:**
+   - Ensure the `loader` file is located in the `C:\Burp` folder.
+
+7. **Customize the Icon:**
+   - Create a shortcut to the `loader` file on your desktop.
+   - Right-click the shortcut, go to the `Shortcut` tab, and click `Change Icon`.
+   - Select `burp-suite.ico` from `C:\Burp`.
+
+---
+
+## Acknowledgements
+
+Special thanks to these contributors for their valuable resources:
+
+- [xiv3r](https://github.com/xiv3r)
+- [rabin-thami](https://github.com/rabin-thami)
+- [ruban-s](https://github.com/ruban-s)
+- [powerstone666](https://github.com/powerstone666)
